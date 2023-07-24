@@ -1,0 +1,10 @@
+testproject
+testproject.controller
+testproject.dao.request
+testproject.dao.response
+testproject.exception
+testproject.model
+testproject.repository
+testproject.security
+testproject.service
+testproject.service.impl

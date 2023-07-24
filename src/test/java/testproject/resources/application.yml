@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/postgres?useSSL=false
+    driverClassName: org.h2.Driver
+    username: postgres
+    password: root
+    initialization-mode: always
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    database: H2
+    open-in-view: false
